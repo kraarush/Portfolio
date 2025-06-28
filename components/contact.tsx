@@ -11,9 +11,9 @@ export default function Contact() {
         <p>
           <span className="font-semibold text-orange-500">Email:</span>{" "}
           <a
-            href="mailto:kshitijyadav2003@gmail.com"
+            href="mailto:aarushkumar8585@gmail.com"
             className="hover:underline text-zinc-300">
-            kshitijyadav2003@gmail.com
+            aarushkumar8585@gmail.com
           </a>
         </p>
         <p>

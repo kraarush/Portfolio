@@ -5,13 +5,13 @@ import { SectionHeader } from "./ui/SectionHeader";
 
 export default async function Skills() {
   const response = await fetch(
-    "https://backend.takeuforward.org/api/profile/user/leetcode/kshitij_kumar"
+    "https://backend.takeuforward.org/api/profile/user/leetcode/kraarush"
   );
-  const { leetcode_data, username } = await response.json();
+  const { leetcode_data } = await response.json();
   return (
     <div
       id="skills"
-      className="flex flex-col min-h-screen px-6 py-16 max-w-5xl mx-auto text-white items-start justify-center snap-start">
+      className="flex flex-col min-h-screen px-6 py-16 max-w-5xl mx-auto text-white items-start justify-center snap-start pt-[100px]">
       <FadeInSection>
         <SectionHeader title="Skills" />
       </FadeInSection>
@@ -36,15 +36,15 @@ export default async function Skills() {
               </div>
               <div className="relative group w-fit">
                 <Image
-                  src="/nextjs.svg"
-                  alt="NextJS Logo"
+                  src="/shadcn.svg"
+                  alt="ShadCN Logo"
                   width={50}
                   height={50}
                   className="object-cover rounded-[10px] transition-transform duration-500 ease-in-out transform hover:scale-110"
                 />
 
                 <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10">
-                  Next
+                  ShadCN
                 </span>
               </div>
               <div className="relative group w-fit">
@@ -60,6 +60,33 @@ export default async function Skills() {
                   TailwindCSS
                 </span>
               </div>
+
+              <div className="relative group w-fit">
+                <Image
+                  src="/redux.svg"
+                  alt="redux Logo"
+                  width={50}
+                  height={50}
+                  className="object-cover rounded-[10px] transition-transform duration-500 ease-in-out transform group-hover:scale-110"
+                />
+                <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10">
+                  Redux
+                </span>
+              </div>
+
+                            <div className="relative group w-fit">
+                <Image
+                  src="/bootstrap.svg"
+                  alt="bootstrap Logo"
+                  width={50}
+                  height={50}
+                  className="object-cover rounded-[10px] transition-transform duration-500 ease-in-out transform group-hover:scale-110"
+                />
+                <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10">
+                  bootstrap
+                </span>
+              </div>
+
             </div>
           </Card>
         </FadeInSection>
@@ -110,19 +137,19 @@ export default async function Skills() {
                 </span>
               </div>
 
-              {/* Prisma */}
               <div className="relative group w-fit">
                 <Image
-                  src="/prisma.svg"
-                  alt="Prisma Logo"
+                  src="/ejs.svg"
+                  alt="ejs Logo"
                   width={50}
                   height={50}
                   className="object-cover rounded-[10px] transition-transform duration-500 ease-in-out transform group-hover:scale-110"
                 />
                 <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10">
-                  Prisma
+                  EJS
                 </span>
               </div>
+
             </div>
           </Card>
         </FadeInSection>
@@ -182,9 +209,25 @@ export default async function Skills() {
                   className="object-cover rounded-[10px] transition-transform duration-500 ease-in-out transform group-hover:scale-110"
                 />
                 <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10">
-                  jenkins
+                  Jenkins
                 </span>
               </div>
+
+
+              <div className="relative group w-fit">
+                <Image
+                  src="/postman.svg"
+                  alt="postman Logo"
+                  width={50}
+                  height={50}
+                  className="object-cover rounded-[10px] transition-transform duration-500 ease-in-out transform group-hover:scale-110"
+                />
+                <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10">
+                  Postman
+                </span>
+              </div>
+              
+
             </div>
           </Card>
         </FadeInSection>
@@ -193,7 +236,6 @@ export default async function Skills() {
           <Card className="bg-zinc-900 shadow-lg hover:shadow-xl transition-shadow duration-300 px-4">
             <p className="text-2xl font-bold text-white">Language</p>
             <div className="flex flex-wrap gap-4">
-              {/* C */}
               <div className="relative group w-fit">
                 <Image
                   src="/c.png"
@@ -207,7 +249,6 @@ export default async function Skills() {
                 </span>
               </div>
 
-              {/* C++ */}
               <div className="relative group w-fit">
                 <Image
                   src="/c++.png"
@@ -221,7 +262,6 @@ export default async function Skills() {
                 </span>
               </div>
 
-              {/* Java */}
               <div className="relative group w-fit">
                 <Image
                   src="/java.svg"
@@ -235,7 +275,6 @@ export default async function Skills() {
                 </span>
               </div>
 
-              {/* JavaScript */}
               <div className="relative group w-fit">
                 <Image
                   src="/javascript.svg"
@@ -247,23 +286,8 @@ export default async function Skills() {
                 <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                   JavaScript
                 </span>
-              </div>
+              </div>  
 
-              {/* TypeScript */}
-              <div className="relative group w-fit">
-                <Image
-                  src="/typescript.svg"
-                  alt="TypeScript Logo"
-                  width={50}
-                  height={50}
-                  className="object-cover rounded-[10px] transition-transform duration-500 ease-in-out transform group-hover:scale-110"
-                />
-                <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
-                  TypeScript
-                </span>
-              </div>
-
-              {/* SQL */}
               <div className="relative group w-fit">
                 <Image
                   src="/sql.svg"

@@ -8,7 +8,7 @@ interface Props {
   github: string;
   desc: string;
   learning: string;
-  techStack: string[]; // array of public image filenames (e.g. ['nextjs.svg'])
+  techStack: string[];
 
 }
 

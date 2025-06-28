@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import FadeInSection from "./FadeInSection";
 
 export const metadata: Metadata = {
-  title: "About | Kshtij Kumar",
+  title: "About | Aarush Kumar",
   description:
     "Get to know more about me – background, interests, and journey.",
 };
@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <main
       id="aboutme"
-      className="min-h-screen px-6 py-16 max-w-5xl mx-auto text-white pt-42 snap-start">
+      className="min-h-screen px-6 py-16 max-w-5xl mx-auto text-white snap-start pt-[100px]">
       <FadeInSection>
         <SectionHeader title="About Me" />
       </FadeInSection>
@@ -59,7 +59,7 @@ export default function AboutPage() {
                 🎓 Education
               </h2>
               <p className="mt-2 text-muted-foreground">
-                B.Tech in CSE @ Lovely Professional University – 2022–2026
+                B.Tech in CSE @Lovely Professional University (2022–2026)
               </p>
             </div>
           </Card>
@@ -73,13 +73,13 @@ export default function AboutPage() {
               </h2>
               <p className="mt-2 text-muted-foreground">
                 Email:{" "}
-                <a href="mailto:kshitijyadav2003@gmail.com" className="underline">
-                  kshitijyadav2003@gmail.com
+                <a href="mailto:aarushkumar8585@gmail.com" className="underline">
+                  aarushkumar8585@gmail.com
                 </a>
                 <br />
                 Phone:{" "}
-                <a href="tel:+916202251263" className="underline">
-                  +91 6202251263
+                <a href="tel:+917091110011" className="underline">
+                  +91 7091110011
                 </a>
               </p>
             </div>
