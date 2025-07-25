@@ -27,7 +27,7 @@ export default function Projects() {
           ]}
         />
 
-                <ProjectCard
+        <ProjectCard
           link="https://redux-tailwind-playground.netlify.app/"
           github="https://github.com/kraarush/Redux-Tailwind-playground"
           name="React-tailwind Playground"
@@ -41,7 +41,7 @@ export default function Projects() {
         />
 
         <ProjectCard
-          link="https://booklytic-1kzx.onrender.com/home"
+          link="https://booklytic-1kzx.onrender.com/"
           github="https://github.com/kraarush/Booklytic"
           name="Booklytic"
           learning="Api integration, OAuth & otp based password reset"
