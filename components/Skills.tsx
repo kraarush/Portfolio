@@ -314,7 +314,7 @@ export default async function Skills() {
               </h2>
               <div className="flex mt-1">
                 <a
-                  href="https://leetcode.com/u/kshitijyadav2003/"
+                  href="https://leetcode.com/u/kraarush709/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2">
